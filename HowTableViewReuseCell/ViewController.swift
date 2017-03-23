@@ -36,7 +36,7 @@ class ViewController: UITableViewController {
         
         var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         if cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
+            cell = SubtitleCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
             numberOfCell += 1
         }
         cell?.textLabel?.text = "\(data[indexPath.row])"

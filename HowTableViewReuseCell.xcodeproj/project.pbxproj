@@ -13,6 +13,7 @@
 		FF6D1E6A1E83B568006A4AE3 /* HowTableViewReuseCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF6D1E681E83B568006A4AE3 /* HowTableViewReuseCell.xcdatamodeld */; };
 		FF6D1E6C1E83B568006A4AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6D1E6B1E83B568006A4AE3 /* Assets.xcassets */; };
 		FF6D1E6F1E83B568006A4AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6D1E6D1E83B568006A4AE3 /* LaunchScreen.storyboard */; };
+		FF931F981E83C2D30059D39C /* SubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF931F971E83C2D30059D39C /* SubtitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF6D1E6B1E83B568006A4AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6D1E6E1E83B568006A4AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF6D1E701E83B568006A4AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF931F971E83C2D30059D39C /* SubtitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FF6D1E611E83B568006A4AE3 /* AppDelegate.swift */,
 				FF6D1E631E83B568006A4AE3 /* ViewController.swift */,
+				FF931F971E83C2D30059D39C /* SubtitleCell.swift */,
 				FF6D1E651E83B568006A4AE3 /* Main.storyboard */,
 				FF6D1E6B1E83B568006A4AE3 /* Assets.xcassets */,
 				FF6D1E6D1E83B568006A4AE3 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6D1E6A1E83B568006A4AE3 /* HowTableViewReuseCell.xcdatamodeld in Sources */,
+				FF931F981E83C2D30059D39C /* SubtitleCell.swift in Sources */,
 				FF6D1E641E83B568006A4AE3 /* ViewController.swift in Sources */,
 				FF6D1E621E83B568006A4AE3 /* AppDelegate.swift in Sources */,
 			);
@@ -308,6 +312,7 @@
 				FF6D1E751E83B568006A4AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
