@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UITableViewController {
     
     var data = Array(1...100)
+    var subData = Array(1...100)
 
     var numberOfCell: Int = 0 {
         didSet {
@@ -35,10 +36,15 @@ class ViewController: UITableViewController {
         
         var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         if cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.value1, reuseIdentifier: "Cell")
+            cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
             numberOfCell += 1
         }
         cell?.textLabel?.text = "\(data[indexPath.row])"
+        if ![10,20,30,40,50,60,70,80,90].contains(subData[indexPath.row]) {
+            cell?.detailTextLabel?.text = "\(data[indexPath.row])"
+        } else {
+            cell?.backgroundColor = UIColor.red
+        }
         return cell!
     }
     
